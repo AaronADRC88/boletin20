@@ -21,7 +21,7 @@ public class Boletin20 {
                 case 2:
                     
                         if (1 == creado) {
-                           // obx.amosar();
+                           obx.darDeBaixa();
                         } else {
                             JOptionPane.showMessageDialog(null, "crea un array", "ERROR", JOptionPane.WARNING_MESSAGE);
                         }
@@ -30,7 +30,7 @@ public class Boletin20 {
                 case 3:
                     
                         if (1 == creado) {
-                            //obx.engadir();
+                            obx.localizarAlumno();
                         } else {
                             JOptionPane.showMessageDialog(null, "crea un array", "ERROR", JOptionPane.WARNING_MESSAGE);
                         }
@@ -39,7 +39,7 @@ public class Boletin20 {
                 case 4:
                     
                         if (1 == creado) {
-                           // obx.borrar();
+                           obx.amosarAlumnos();
                         } else {
                             JOptionPane.showMessageDialog(null, "crea un array", "ERROR", JOptionPane.WARNING_MESSAGE);
                         }
