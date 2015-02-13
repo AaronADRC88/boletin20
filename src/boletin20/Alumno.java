@@ -33,14 +33,7 @@ public class Alumno {
 
     @Override
     public String toString() {
-        return "Alumno{" + "nome=" + nome + ", nota=" + nota + '}';
+        return "\nAlumno: " + nome + "\nnota=" + nota ;
     }
-    public String darNome(){
-    String nom=JOptionPane.showInputDialog("introduce nome");
-    return nom;
-}
-public int darNota(){
-    int not=Integer.parseInt(JOptionPane.showInputDialog("introduce a nota"));
-    return not;
-}
+
 }
